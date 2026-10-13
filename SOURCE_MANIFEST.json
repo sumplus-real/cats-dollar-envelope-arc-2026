@@ -13,8 +13,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6092,
-      "sha256": "ee5cc445fa6f4e1f2494288240b5cd9a91d99a899737e59b9b6d499e64235b57"
+      "bytes": 6070,
+      "sha256": "93f6fa446ffa15034eff71f8c8692e6c5379682da5e60edd9f68fc9c62357589"
     },
     {
       "path": "contracts/src/SpendPass.sol",
@@ -33,8 +33,8 @@
     },
     {
       "path": "docs/submission-description.txt",
-      "bytes": 1748,
-      "sha256": "fbae058b98a12c7d02fc4904fa95f0c7b272e76ba0888c6b6d6dd8ba4ce4d3b1"
+      "bytes": 1684,
+      "sha256": "1322ff3bc240779e2718025ef363ad33d3b44deac2162ae8e8339f81a45a2980"
     },
     {
       "path": "foundry.toml",

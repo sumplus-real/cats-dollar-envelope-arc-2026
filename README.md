@@ -2,7 +2,7 @@
 
 Give an agent a fixed task budget and keep a way to recover the unaccepted amount. CATS Dollar Envelope uses Arc native USDC for both task principal and network fees, with separate app-level fee allowances for the owner and two operators.
 
-**Current release: locally verified prototype. Mainnet deployment and application are pending funding authorization.** Chain 5042 in local Anvil does not prove Arc mainnet operation. Mainnet RPC estimates with synthetic state overrides are estimates, not a deployed application.
+**Current release: locally verified prototype. Mainnet deployment and application are pending.** Chain 5042 in local Anvil does not prove Arc mainnet operation. Mainnet RPC estimates with synthetic state overrides are estimates, not a deployed application.
 
 ## What it does
 
