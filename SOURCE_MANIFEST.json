@@ -108,8 +108,8 @@
     },
     {
       "path": "scripts/mainnet-preflight.mjs",
-      "bytes": 2761,
-      "sha256": "c96e69828b534ed93ddedc6621fe97627bbb51f68094458f5d8face9ead860e2"
+      "bytes": 3362,
+      "sha256": "b53005d0fe65c2a3e9a983fb81591b5644da1684093b4e87d4e4537ef2c17dcb"
     },
     {
       "path": "scripts/mainnet-run.mjs",
