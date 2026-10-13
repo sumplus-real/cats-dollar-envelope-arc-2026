@@ -1,0 +1,13 @@
+CATS Dollar Envelope. A fixed agent budget, with a way out you can keep.
+Show the deployment environment explicitly. Local footage is a local rehearsal, never Arc mainnet proof.
+One root holds 0.010 USDC. A has accepted and claimed 0.002. B0 holds an irreversible fee credit of 0.003. B1 has only an Offered 0.004.
+The principal is 0.010. Exactly 0.005 remains unaccepted and recoverable. Exactly 0.005 is accepted, split between claimed and unclaimed.
+Network fees are separate, by owner, A and B. A pending or Unknown transaction holds its maximum reserve; an actual receipt supplies gasUsed times effectiveGasPrice.
+Download the Recovery Kit. Check its package inventory. Stop the main service and preparation/operator process.
+Open the kit from a separate static origin in a fresh browser. It checks chain 5042, deployed bytecode, owner and the current ledger. It has no main-site API or operator dependency.
+Review the owner's exit fee envelope. Close the root. Release B1's Offered amount. Withdraw B0's 0.001 and B1's 0.004.
+The owner recovered 0.005. B's accepted 0.003 is still owed. It was never refundable principal.
+B independently claims that credit. The contract's accounted balance becomes zero. This shows financial rights and recovery, not service delivery.
+Open the dollar receipt. Recheck all fourteen receipts and three signer balance checkpoints against RPC. Change a recorded fee: verification turns red. Change the deployment code hash: signing is disabled.
+Native USDC has eighteen decimals. Its six-decimal ERC-20 view is the same balance, not extra money.
+The contract caps principal. The app budgets its own signing fees, not other wallet activity. Wallet, RPC, chain availability, transfer rules and sufficient Gas remain dependencies.

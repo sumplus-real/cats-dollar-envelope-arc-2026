@@ -1,0 +1,18 @@
+{
+  "name": "cats-dollar-envelope",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "viem": "2.38.5",
+    "ws": "8.21.0"
+  },
+  "scripts": {
+    "test": "node --test runtime/*.test.mjs",
+    "test:contract": "forge test",
+    "rehearse": "node scripts/rehearse.mjs"
+  },
+  "overrides": {
+    "ws": "8.21.0"
+  }
+}
