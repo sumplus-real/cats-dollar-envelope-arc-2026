@@ -83,13 +83,13 @@
     },
     {
       "path": "runtime/ledger.mjs",
-      "bytes": 3362,
-      "sha256": "245dc5082d694bc566e9894bafe27724c897e251f4165c2701b247d0ab3f97ec"
+      "bytes": 3389,
+      "sha256": "5b2146a7de90c232fd8f4765c4ee6eb59483cc062a11cec3a576a092588a1054"
     },
     {
       "path": "runtime/ledger.test.mjs",
-      "bytes": 2710,
-      "sha256": "fa72fd0f1cba08c3695a40fc8203b72e54a70605b229556cee4a07e51473595b"
+      "bytes": 3348,
+      "sha256": "406484b8b3529abeb031193316fd838bc03080d192f687a2491660de24cf7f10"
     },
     {
       "path": "runtime/quote.mjs",
@@ -113,13 +113,13 @@
     },
     {
       "path": "scripts/mainnet-run.mjs",
-      "bytes": 10490,
-      "sha256": "320c0ef3f9ca6ede080451ab34d70c2bb4afc3bf499d6f26ead5e3b345423c71"
+      "bytes": 10962,
+      "sha256": "19728854d3a108ddaa29d9cde39fb7187f0576462ae0a90068431cc3aa360b60"
     },
     {
       "path": "scripts/rehearse.mjs",
-      "bytes": 9998,
-      "sha256": "2a26afa02ac4f91a1a31d90bf0a4fa0cdb0c26c82dbfa5cf64d1951eabd9a5a7"
+      "bytes": 10474,
+      "sha256": "36d3cbadf1fd1ce5760bb771250aa407951de8ba52cae45adeaf007cbfefab30"
     },
     {
       "path": "scripts/serve.mjs",
@@ -138,8 +138,8 @@
     },
     {
       "path": "web/app.js",
-      "bytes": 15121,
-      "sha256": "46f04ab53668c96dcb80c087a7e05dd79bec09470690ab84b388e760fa80c890"
+      "bytes": 15323,
+      "sha256": "6c40ee0799f1f23c9fd76a83c94e214fc129e22065fae76ce0904c1075267943"
     },
     {
       "path": "web/index.html",
@@ -178,13 +178,13 @@
     },
     {
       "path": "evidence/local-cold-rehearsal.json",
-      "bytes": 12189,
-      "sha256": "6a40207bfbad32ad50f18a7095807664701aa78f6706ee1e480423915a2fcbb2"
+      "bytes": 13084,
+      "sha256": "863469f4dee3c3ede3af39387c0fa666e1c973519cf8e16679f76b506da99b95"
     },
     {
       "path": "evidence/browser-local.json",
       "bytes": 1946,
-      "sha256": "a02c1dc28c316887173be6bf7580ba9d16b62cec442b683dd172d194b3301aa5"
+      "sha256": "63e4d0cbce73223552766f15a911eebbf96903276d73b4d601600d07ca3e2725"
     },
     {
       "path": "evidence/browser-foreign-root.json",
@@ -193,8 +193,8 @@
     },
     {
       "path": "evidence/node-tests.tap",
-      "bytes": 3800,
-      "sha256": "95e2a4110da409b85356b60457f90fe42300bbb6ef6e942ee702105f25578914"
+      "bytes": 3979,
+      "sha256": "0b2a98320fd820bfead78308137e84372cb290106af7406424c479d535ea75ec"
     },
     {
       "path": "evidence/foundry-tests.txt",
