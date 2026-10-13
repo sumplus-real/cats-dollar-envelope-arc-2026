@@ -1,0 +1,30 @@
+{
+  "mode": "LOCAL_REHEARSAL_NOT_MAINNET",
+  "durationSeconds": 90,
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "codec": "H264",
+  "hasAudio": false,
+  "hyperframesVersion": "0.8.154",
+  "previousScaffoldPin": "0.8.153",
+  "check": {
+    "ok": true,
+    "runtimeErrors": 0,
+    "layoutErrors": 0,
+    "contrastPassed": 35,
+    "contrastChecked": 35
+  },
+  "decodeErrors": 0,
+  "files": {
+    "CATS_Dollar_Envelope_LOCAL_90s.mp4": {
+      "bytes": 3519447,
+      "sha256": "2305fd70996f5524ef239939afcfdbe8546630c91cda98870ba118ef8f9daffb"
+    },
+    "CATS_Dollar_Envelope_LOCAL_editable.zip": {
+      "bytes": 2334753,
+      "sha256": "d4726d39d38c5b4734179f69f06015158472c0c8032a000ea3f066dafadd6e27"
+    }
+  },
+  "publicDestination": "https://sumplus-real.github.io/cats-dollar-envelope-arc-2026/"
+}
