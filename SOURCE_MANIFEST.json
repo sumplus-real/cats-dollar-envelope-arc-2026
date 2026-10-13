@@ -13,8 +13,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6070,
-      "sha256": "93f6fa446ffa15034eff71f8c8692e6c5379682da5e60edd9f68fc9c62357589"
+      "bytes": 6154,
+      "sha256": "2f7700dd421c3b013c0bf48174f6779a3c63a4218b4f5300b33ad6fa12df9eee"
     },
     {
       "path": "contracts/src/SpendPass.sol",
@@ -23,8 +23,8 @@
     },
     {
       "path": "contracts/test/SpendPass.t.sol",
-      "bytes": 14614,
-      "sha256": "f589c70749236f7744ce03c937eb9cb540faefce3f711b888cbf13c046b16e25"
+      "bytes": 15465,
+      "sha256": "41c82e9b5f9815891f5eb2a1aaa67274e9dace0bf2074fb558f5e3995f7341ab"
     },
     {
       "path": "docs/demo-script.txt",
@@ -83,13 +83,13 @@
     },
     {
       "path": "runtime/ledger.mjs",
-      "bytes": 3150,
-      "sha256": "769ff4d4848af37816416aef03e5a8c43424a4dc7a30b17cda12be9c42fa8c5d"
+      "bytes": 3362,
+      "sha256": "245dc5082d694bc566e9894bafe27724c897e251f4165c2701b247d0ab3f97ec"
     },
     {
       "path": "runtime/ledger.test.mjs",
-      "bytes": 2415,
-      "sha256": "3dc614ab56de918769b6f872cb24ea5242da5cd7299691b41d1134fd4eb61660"
+      "bytes": 2710,
+      "sha256": "fa72fd0f1cba08c3695a40fc8203b72e54a70605b229556cee4a07e51473595b"
     },
     {
       "path": "runtime/quote.mjs",
@@ -98,8 +98,8 @@
     },
     {
       "path": "scripts/browser-verify.mjs",
-      "bytes": 10136,
-      "sha256": "83174c3d74407ea4a3eb67c66eef9837c70d6372858093dc684c700f992f816b"
+      "bytes": 11102,
+      "sha256": "8bdd3cf9d0c4a6ea13ba7b0ff9245eeb16fdb3a1adf91a3f9f52b170afaf85e1"
     },
     {
       "path": "scripts/build-kit.mjs",
@@ -138,8 +138,8 @@
     },
     {
       "path": "web/app.js",
-      "bytes": 14441,
-      "sha256": "f4f97451b90a33a646fc328861da40bda2349b83bfd626a8d55b58041660446b"
+      "bytes": 15121,
+      "sha256": "46f04ab53668c96dcb80c087a7e05dd79bec09470690ab84b388e760fa80c890"
     },
     {
       "path": "web/index.html",

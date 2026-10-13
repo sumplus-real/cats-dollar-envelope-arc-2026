@@ -64,4 +64,6 @@ contract SpendPassTest {
     function testPolicyRejectsSharedOperator() public {SpendPass.Policy memory p=policy();p.childOperator=p.rootOperator;vm.expectRevert();c.createRoot{value:.01 ether}(p);eq(c.creationNonce(address(this)),1);eq(c.registeredFunding(),.01 ether);}
     function testPolicyRejectsDelegateDifferentFromA() public {SpendPass.Policy memory p=policy();p.delegate=b;vm.expectRevert();c.createRoot{value:.01 ether}(p);eq(c.creationNonce(address(this)),1);eq(c.registeredFunding(),.01 ether);}
 
+    function testRejectPayeeCannotBlockOwnerExit() public {Reject r=new Reject();SpendPass.Policy memory p=policy();p.rootPayee=address(r);bytes32 id=c.createRoot{value:.01 ether}(p);SpendPass.Quote memory q=quote(id,.002 ether,11);q.payee=address(r);q.policyHash=c.policyHash(id);bytes memory sig=signature(q,11);vm.prank(a);c.reserve(q,sig);vm.prank(a);c.accept(id);vm.expectRevert();c.claim(id);c.close(id);uint256 before=address(this).balance;c.withdraw(id);eq(address(this).balance-before,.008 ether);eq(g(id).providerUnclaimed,.002 ether);eq(c.accountedBalance(),.012 ether);require(c.ledgerValid(id),"credit isolated");}
+    function testChangedFeeInvalidatesSignature() public {SpendPass.Quote memory q=quote(root,.002 ether,11);bytes memory sig=signature(q,11);q.fee=.001 ether;vm.prank(a);vm.expectRevert();c.reserve(q,sig);conservation();}
 }
