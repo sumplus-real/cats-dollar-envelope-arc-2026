@@ -5,3 +5,17 @@ contracts/cache/
 .env*
 wallets*.json
 *.key
+web/deployment.json
+web/envelope.json
+web/receipt.json
+web/recovery-kit.zip
+recovery-kit/
+evidence/local-cold-recording/
+evidence/browser-exit-journal.json
+evidence/browser-step-*.png
+evidence/cold-recovered.png
+evidence/dashboard-active.png
+evidence/local-active.json
+evidence/local-envelope.json
+evidence/receipt-rpc-verified.png
+evidence/recovery-ready.png
