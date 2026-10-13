@@ -1,0 +1,366 @@
+{
+  "mode": "LOCAL_SIMULATION_NOT_MAINNET",
+  "providerCalls": 0,
+  "syntheticService": true,
+  "manifestDigest": "0xa3d912ad89a4c2de3a0c05cd95931ca944296872e6b9693b6b0818f00ec65e4d",
+  "transactions": [
+    {
+      "stepId": "deploy",
+      "role": "owner",
+      "sender": "0xaF813E0EE846714A3DA5B9FBA2203eEaDF080E58",
+      "chainId": 5042,
+      "hash": "0x8914a282ac65a1f2b907acfd7bfdde0d0255bb1e47225fe515322cf1766b094e",
+      "status": "success",
+      "to": null,
+      "blockHash": "0x30327dc65d0db178731294ac59084f8f337df44def648149004988e4ec665f4e",
+      "blockNumber": "170",
+      "gasUsed": "2017009",
+      "effectiveGasPrice": "1000000008",
+      "estimatedGas": "2017009",
+      "value": "0"
+    },
+    {
+      "stepId": "createRoot",
+      "role": "owner",
+      "sender": "0xaF813E0EE846714A3DA5B9FBA2203eEaDF080E58",
+      "chainId": 5042,
+      "hash": "0x87fe00c345f9188bf82703b77d1ef788a7a157742c1dbf0ca21b3774a10234df",
+      "status": "success",
+      "to": "0x20360b61215a6276b63794e33e184a9aabf5407d",
+      "blockHash": "0xc0d3273e77f934d3051d223f85ab878a12754c827a56772ede734c42f1975d05",
+      "blockNumber": "171",
+      "gasUsed": "484830",
+      "effectiveGasPrice": "1000000008",
+      "estimatedGas": "484830",
+      "value": "10000000000000000"
+    },
+    {
+      "stepId": "reserveA",
+      "role": "A",
+      "sender": "0x7f692dbECa31a89038338a9537Af59E037c72e0E",
+      "chainId": 5042,
+      "hash": "0x3253a06192e94580b2f0c73c7d356e84c15e1f86a0f1a24423b6ab4fe9b91010",
+      "status": "success",
+      "to": "0x20360b61215a6276b63794e33e184a9aabf5407d",
+      "blockHash": "0x24c92e1f90a40ed38e4cbe51989b995eb75d1e65564be2f223b718703e92165d",
+      "blockNumber": "172",
+      "gasUsed": "192590",
+      "effectiveGasPrice": "1000000008",
+      "estimatedGas": "192590",
+      "value": "0"
+    },
+    {
+      "stepId": "acceptA",
+      "role": "A",
+      "sender": "0x7f692dbECa31a89038338a9537Af59E037c72e0E",
+      "chainId": 5042,
+      "hash": "0x4f8a2c48c477ea9999b4df089bfe1a3a6239ee3a115780042774c5806fee8373",
+      "status": "success",
+      "to": "0x20360b61215a6276b63794e33e184a9aabf5407d",
+      "blockHash": "0x136221037266784c70bb80f16b14b16e56070a99a2099ee0eed7325745a17a2a",
+      "blockNumber": "173",
+      "gasUsed": "65068",
+      "effectiveGasPrice": "1000000008",
+      "estimatedGas": "69868",
+      "value": "0"
+    },
+    {
+      "stepId": "claimA",
+      "role": "A",
+      "sender": "0x7f692dbECa31a89038338a9537Af59E037c72e0E",
+      "chainId": 5042,
+      "hash": "0x577e6324e33c150060731fb7e786ca4a019bbadba01ef0191ad1e23ff5311823",
+      "status": "success",
+      "to": "0x20360b61215a6276b63794e33e184a9aabf5407d",
+      "blockHash": "0x8d57086c978874e0723ccaaa83ab574aa464e61c8ed16068254bd5555c875939",
+      "blockNumber": "174",
+      "gasUsed": "85628",
+      "effectiveGasPrice": "1000000008",
+      "estimatedGas": "109236",
+      "value": "0"
+    },
+    {
+      "stepId": "split",
+      "role": "A",
+      "sender": "0x7f692dbECa31a89038338a9537Af59E037c72e0E",
+      "chainId": 5042,
+      "hash": "0x7b9477fe34721bdde0ee12303cd418cb7683c1aafd5e08fb73d284f3b04902fa",
+      "status": "success",
+      "to": "0x20360b61215a6276b63794e33e184a9aabf5407d",
+      "blockHash": "0x316de200373c1da3d3738639520627d482ecc03470e6e050c7e968744e505ec0",
+      "blockNumber": "175",
+      "gasUsed": "308776",
+      "effectiveGasPrice": "1000000008",
+      "estimatedGas": "313576",
+      "value": "0"
+    },
+    {
+      "stepId": "reserveB0",
+      "role": "A",
+      "sender": "0x7f692dbECa31a89038338a9537Af59E037c72e0E",
+      "chainId": 5042,
+      "hash": "0xe9640acb5baba6d6301b575cb42cab17f3d99feab2051a2f6d557bc0326818db",
+      "status": "success",
+      "to": "0x20360b61215a6276b63794e33e184a9aabf5407d",
+      "blockHash": "0x294577cc63c419a570a8ef50347047462e256dd228173cfcf41bbbd114bc3fe8",
+      "blockNumber": "176",
+      "gasUsed": "192638",
+      "effectiveGasPrice": "1000000008",
+      "estimatedGas": "192638",
+      "value": "0"
+    },
+    {
+      "stepId": "acceptB0",
+      "role": "B",
+      "sender": "0xD9907ef0465A2D7204DDBA2dD0925FdeD5DaFC8A",
+      "chainId": 5042,
+      "hash": "0x327f2888aa4350d7ad7083eb537e5479c5db0c61aad509864b55358959438f86",
+      "status": "success",
+      "to": "0x20360b61215a6276b63794e33e184a9aabf5407d",
+      "blockHash": "0xe11a0e61a19629e404dc7142a5891ca3e115ac225287514d301b876536f17133",
+      "blockNumber": "177",
+      "gasUsed": "65068",
+      "effectiveGasPrice": "1000000008",
+      "estimatedGas": "69868",
+      "value": "0"
+    },
+    {
+      "stepId": "reserveB1",
+      "role": "A",
+      "sender": "0x7f692dbECa31a89038338a9537Af59E037c72e0E",
+      "chainId": 5042,
+      "hash": "0x4a36e5fd9d5154efb7e6853ab7fda07f12374ea738ccbcaf2b0a9ab25a9920e7",
+      "status": "success",
+      "to": "0x20360b61215a6276b63794e33e184a9aabf5407d",
+      "blockHash": "0x8d7e6a6d2e3fc1f63073f5306df13a5f38dd79c6e6de399d548c9db5f56fda98",
+      "blockNumber": "178",
+      "gasUsed": "187826",
+      "effectiveGasPrice": "1000000008",
+      "estimatedGas": "192626",
+      "value": "0"
+    },
+    {
+      "stepId": "close",
+      "role": "owner",
+      "sender": "0xaF813E0EE846714A3DA5B9FBA2203eEaDF080E58",
+      "chainId": 5042,
+      "hash": "0x0c819d62e0af6a33e7f0ff26d3097e611efbc80926e6bfb8421c17b993b5c7ec",
+      "status": "success",
+      "to": "0x20360b61215a6276b63794e33e184a9aabf5407d",
+      "blockHash": "0xaa0e466e9d1a6959c108bfc70807972fd3aacd2e57fdd1f2e512ce417c7607b3",
+      "blockNumber": "179",
+      "gasUsed": "49560",
+      "effectiveGasPrice": "1000000008",
+      "value": "0"
+    },
+    {
+      "stepId": "releaseB1",
+      "role": "owner",
+      "sender": "0xaF813E0EE846714A3DA5B9FBA2203eEaDF080E58",
+      "chainId": 5042,
+      "hash": "0xa2da5525d572aa4f3a8d4f4407c1883b7a75a6cbeb796c8ac1c07193a0aaef3a",
+      "status": "success",
+      "to": "0x20360b61215a6276b63794e33e184a9aabf5407d",
+      "blockHash": "0xfceb405572912030664fab384b3836e3a73dc714b6cd0fcf765b5ecc9a36cec9",
+      "blockNumber": "180",
+      "gasUsed": "60030",
+      "effectiveGasPrice": "1000000008",
+      "value": "0"
+    },
+    {
+      "stepId": "withdrawB0",
+      "role": "owner",
+      "sender": "0xaF813E0EE846714A3DA5B9FBA2203eEaDF080E58",
+      "chainId": 5042,
+      "hash": "0x1dccbc51ec6837c2199c1b4038d973f7894457dea39e7a74ccf09cef0a7d4b8c",
+      "status": "success",
+      "to": "0x20360b61215a6276b63794e33e184a9aabf5407d",
+      "blockHash": "0x05744a25134fd3c0775f074413c35850f74fd3284710c6bd4a528c82e66b235a",
+      "blockNumber": "181",
+      "gasUsed": "75436",
+      "effectiveGasPrice": "1000000008",
+      "value": "0"
+    },
+    {
+      "stepId": "withdrawB1",
+      "role": "owner",
+      "sender": "0xaF813E0EE846714A3DA5B9FBA2203eEaDF080E58",
+      "chainId": 5042,
+      "hash": "0x1068184b781f82082696f0cb296d51e28d7fd517ac2851435468572aa88d786b",
+      "status": "success",
+      "to": "0x20360b61215a6276b63794e33e184a9aabf5407d",
+      "blockHash": "0x9ae9185280478d25bb5a9b13213fe927c23af4dd5da4d5b3ce42f046e1ec19a4",
+      "blockNumber": "182",
+      "gasUsed": "75436",
+      "effectiveGasPrice": "1000000008",
+      "value": "0"
+    },
+    {
+      "stepId": "claimB0",
+      "role": "B",
+      "sender": "0xD9907ef0465A2D7204DDBA2dD0925FdeD5DaFC8A",
+      "chainId": 5042,
+      "hash": "0x4ada4f8dda16b56eb0aeb1f836e9ac185768b4c33d6fb017ec52a429e68b9e2d",
+      "status": "success",
+      "to": "0x20360b61215a6276b63794e33e184a9aabf5407d",
+      "blockHash": "0xe427f420a278b151a6fa1900afa5b08256490f9461db40ec2dd580fce99c064f",
+      "blockNumber": "183",
+      "gasUsed": "71948",
+      "effectiveGasPrice": "1000000008",
+      "value": "0"
+    }
+  ],
+  "stages": {
+    "active": {
+      "blockNumber": "178",
+      "blockHash": "0x8d7e6a6d2e3fc1f63073f5306df13a5f38dd79c6e6de399d548c9db5f56fda98",
+      "grants": [
+        [
+          "0x6b5d41370c0d8206300baf5f8a1a377a9692e64e7a4d3cd9ed3136fb58bc1ba2",
+          "10000000000000000",
+          "0",
+          "0",
+          "0",
+          "2000000000000000",
+          "0",
+          "8000000000000000",
+          1
+        ],
+        [
+          "0x6b5d41370c0d8206300baf5f8a1a377a9692e64e7a4d3cd9ed3136fb58bc1ba2",
+          "4000000000000000",
+          "1000000000000000",
+          "0",
+          "3000000000000000",
+          "0",
+          "0",
+          "0",
+          2
+        ],
+        [
+          "0x6b5d41370c0d8206300baf5f8a1a377a9692e64e7a4d3cd9ed3136fb58bc1ba2",
+          "4000000000000000",
+          "0",
+          "4000000000000000",
+          "0",
+          "0",
+          "0",
+          "0",
+          2
+        ]
+      ],
+      "balance": "8000000000000000",
+      "accounted": "8000000000000000",
+      "ledger": {
+        "principalWei": "10000000000000000",
+        "freeWei": "1000000000000000",
+        "heldWei": "4000000000000000",
+        "acceptedUnclaimedWei": "3000000000000000",
+        "acceptedClaimedWei": "2000000000000000",
+        "acceptedWei": "5000000000000000",
+        "ownerWithdrawnWei": "0",
+        "assetsWei": "8000000000000000",
+        "globalAccountedWei": "8000000000000000",
+        "otherRootsAssetsWei": "0",
+        "surplusWei": "0",
+        "scope": "Current root conservation; global native balance covers contract recorded assets",
+        "pass": true
+      }
+    },
+    "recovered": {
+      "ledger": {
+        "principalWei": "10000000000000000",
+        "freeWei": "0",
+        "heldWei": "0",
+        "acceptedUnclaimedWei": "3000000000000000",
+        "acceptedClaimedWei": "2000000000000000",
+        "acceptedWei": "5000000000000000",
+        "ownerWithdrawnWei": "5000000000000000",
+        "assetsWei": "3000000000000000",
+        "globalAccountedWei": "3000000000000000",
+        "otherRootsAssetsWei": "0",
+        "surplusWei": "0",
+        "scope": "Current root conservation; global native balance covers contract recorded assets",
+        "pass": true
+      }
+    },
+    "allClaimed": {
+      "ledger": {
+        "principalWei": "10000000000000000",
+        "freeWei": "0",
+        "heldWei": "0",
+        "acceptedUnclaimedWei": "0",
+        "acceptedClaimedWei": "5000000000000000",
+        "acceptedWei": "5000000000000000",
+        "ownerWithdrawnWei": "5000000000000000",
+        "assetsWei": "0",
+        "globalAccountedWei": "0",
+        "otherRootsAssetsWei": "0",
+        "surplusWei": "0",
+        "scope": "Current root conservation; global native balance covers contract recorded assets",
+        "pass": true
+      }
+    }
+  },
+  "roles": {
+    "owner": {
+      "address": "0xaF813E0EE846714A3DA5B9FBA2203eEaDF080E58",
+      "gasLimitWei": "130000000000000000"
+    },
+    "A": {
+      "address": "0x7f692dbECa31a89038338a9537Af59E037c72e0E",
+      "gasLimitWei": "80000000000000000"
+    },
+    "B": {
+      "address": "0xD9907ef0465A2D7204DDBA2dD0925FdeD5DaFC8A",
+      "gasLimitWei": "30000000000000000"
+    }
+  },
+  "startedAt": "2026-10-13T19:37:38.170Z",
+  "beforeBlock": {
+    "number": "169",
+    "hash": "0xc6e695263d44275c3783a5cdeac6a0d6573c0ec0884c45d5cd8b5a70e8b55e84"
+  },
+  "fees": {
+    "byRoleWei": {
+      "owner": "2762301022098408",
+      "A": "1032526008260208",
+      "B": "137016001096128"
+    },
+    "totalGasWei": "3931843031454744",
+    "receiptCount": 14,
+    "pass": true
+  },
+  "balanceDeltas": {
+    "owner": {
+      "before": "10000000000000000000",
+      "after": "9992237698977901592",
+      "inflow": "5000000000000000",
+      "outflow": "10000000000000000"
+    },
+    "A": {
+      "before": "10000000000000000000",
+      "after": "10000967473991739792",
+      "inflow": "2000000000000000",
+      "outflow": "0"
+    },
+    "B": {
+      "before": "10000000000000000000",
+      "after": "10002862983998903872",
+      "inflow": "3000000000000000",
+      "outflow": "0"
+    }
+  },
+  "coldRecovery": {
+    "mainStopped": true,
+    "preparerExited": true,
+    "independentOrigin": true,
+    "fixtureWallet": true,
+    "productionExtensionVerified": false
+  },
+  "afterBlock": {
+    "number": "183",
+    "hash": "0xe427f420a278b151a6fa1900afa5b08256490f9461db40ec2dd580fce99c064f"
+  },
+  "finishedAt": "2026-10-13T19:37:48.145Z"
+}

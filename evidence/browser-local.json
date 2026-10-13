@@ -1,0 +1,73 @@
+{
+  "mode": "LOCAL_SIMULATION_NOT_MAINNET",
+  "wallet": "Isolated EIP-1193 shim backed by controlled local-only keys, not production extension",
+  "coldOrigin": "http://127.0.0.1:19144",
+  "mainOrigin": "http://127.0.0.1:19143",
+  "checks": [
+    {
+      "name": "dashboard_live_ledger",
+      "pass": true
+    },
+    {
+      "name": "main_server_stopped_before_recovery",
+      "pass": true
+    },
+    {
+      "name": "fresh_origin_owner_four_transactions",
+      "pass": true,
+      "ledger": {
+        "principalWei": "10000000000000000",
+        "freeWei": "0",
+        "heldWei": "0",
+        "acceptedUnclaimedWei": "3000000000000000",
+        "acceptedClaimedWei": "2000000000000000",
+        "acceptedWei": "5000000000000000",
+        "ownerWithdrawnWei": "5000000000000000",
+        "assetsWei": "3000000000000000",
+        "globalAccountedWei": "3000000000000000",
+        "otherRootsAssetsWei": "0",
+        "surplusWei": "0",
+        "scope": "Current root conservation; global native balance covers contract recorded assets",
+        "pass": true
+      },
+      "transactions": 4,
+      "extension": false,
+      "fixtureWallet": true
+    },
+    {
+      "name": "no_main_origin_or_operator_or_CDN_requests",
+      "pass": true,
+      "origins": [
+        "http://127.0.0.1:19144",
+        "http://127.0.0.1:19142"
+      ]
+    },
+    {
+      "name": "post_cold_independent_B_claim_and_all_sender_delta",
+      "pass": true,
+      "gas": {
+        "byRoleWei": {
+          "owner": "2762301022098408",
+          "A": "1032526008260208",
+          "B": "137016001096128"
+        },
+        "totalGasWei": "3931843031454744",
+        "receiptCount": 14,
+        "pass": true
+      }
+    },
+    {
+      "name": "full_receipt_RPC_verified_and_wrong_gas_rejected",
+      "pass": true
+    },
+    {
+      "name": "corrupt_code_disabled_signing",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "kit": {
+    "files": 14,
+    "pass": true
+  }
+}

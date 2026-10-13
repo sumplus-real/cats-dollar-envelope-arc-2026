@@ -73,13 +73,13 @@
     },
     {
       "path": "runtime/envelope.mjs",
-      "bytes": 4612,
-      "sha256": "93787dde3070715555cfbf143b5d90d3c840541714e67f4afda27d07e0150472"
+      "bytes": 5199,
+      "sha256": "241aa08871aa56fe33e15d2ababaa85e96da837cf6ed1d5a801a888938abf185"
     },
     {
       "path": "runtime/envelope.test.mjs",
-      "bytes": 3729,
-      "sha256": "0eec0502b61f2e5c15c3b7c40f6145b41f0fb4e5cb97386f690b6cd9a8fd898c"
+      "bytes": 4249,
+      "sha256": "70b9642d1281d7c7a8e8f2186d938030376372d1f85a486efe7da373ddf0a69e"
     },
     {
       "path": "runtime/ledger.mjs",
@@ -98,8 +98,8 @@
     },
     {
       "path": "scripts/browser-verify.mjs",
-      "bytes": 11102,
-      "sha256": "8bdd3cf9d0c4a6ea13ba7b0ff9245eeb16fdb3a1adf91a3f9f52b170afaf85e1"
+      "bytes": 11182,
+      "sha256": "d70a23b3e33d7eeb000f8c8e93e5e8bc83ed84ca0be76ef6c19c50415ddbabf1"
     },
     {
       "path": "scripts/build-kit.mjs",
@@ -175,6 +175,36 @@
       "path": "web/verify-receipt.mjs",
       "bytes": 2219,
       "sha256": "6c5a5bf91fd85aff4a742c227e7a02eb61c5b796564d6dacece139d090ca54eb"
+    },
+    {
+      "path": "evidence/local-cold-rehearsal.json",
+      "bytes": 12189,
+      "sha256": "6a40207bfbad32ad50f18a7095807664701aa78f6706ee1e480423915a2fcbb2"
+    },
+    {
+      "path": "evidence/browser-local.json",
+      "bytes": 1946,
+      "sha256": "a02c1dc28c316887173be6bf7580ba9d16b62cec442b683dd172d194b3301aa5"
+    },
+    {
+      "path": "evidence/browser-foreign-root.json",
+      "bytes": 2129,
+      "sha256": "2e8cfb38d7e5d2d1a75c77db580b8e3e0c1d3a763874030a00fd06afe3ce0940"
+    },
+    {
+      "path": "evidence/node-tests.tap",
+      "bytes": 3800,
+      "sha256": "95e2a4110da409b85356b60457f90fe42300bbb6ef6e942ee702105f25578914"
+    },
+    {
+      "path": "evidence/foundry-tests.txt",
+      "bytes": 3228,
+      "sha256": "df3dff8acf4db831f9e3b6c937a0c2ba40a6d86776fc1a5a3cad838f3654046f"
+    },
+    {
+      "path": "evidence/known-bad-storage.txt",
+      "bytes": 658,
+      "sha256": "cdba35af9a0cc0cafcbbafec0eeabe95848a06dc979ab5a4d63c8abc048cc270"
     }
   ]
 }

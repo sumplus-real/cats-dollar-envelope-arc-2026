@@ -1,0 +1,53 @@
+Compiling 1 files with Solc 0.8.28
+Solc 0.8.28 finished in 10.90s
+Compiler run successful with warnings:
+Warning (5159): "selfdestruct" has been deprecated. Note that, starting from the Cancun hard fork, the underlying opcode no longer deletes the code and data associated with an account and only transfers its Ether to the beneficiary, unless executed in the same transaction in which the contract was created (see EIP-6780). Any use in newly deployed contracts is strongly discouraged even if the new behavior is taken into account. Future changes to the EVM might further reduce the functionality of the opcode.
+ --> contracts/test/SpendPass.t.sol:7:86:
+  |
+7 | contract Force { constructor() payable {} function send(address payable x) external {selfdestruct(x);} }
+  |                                                                                      ^^^^^^^^^^^^
+
+Warning (2072): Unused local variable.
+  --> contracts/test/SpendPass.t.sol:62:272:
+   |
+62 |  ... memory q=quote(root,.002 ether,11);bytes memory sig=signature(q,11);require(other.quot ...
+   |                                         ^^^^^^^^^^^^^^^^
+
+
+Ran 33 tests for contracts/test/SpendPass.t.sol:SpendPassTest
+[PASS] testAcceptThenCloseBlocksSplit() (gas: 252560)
+[PASS] testAcceptWinsNoRefund() (gas: 347557)
+[PASS] testActiveWithdrawalAndEarlyReleaseRejected() (gas: 224388)
+[PASS] testAllocationCountDepthDuplicateSplit() (gas: 694087)
+[PASS] testBothChildrenAcceptedOwnerRefundZero() (gas: 996047)
+[PASS] testCancelWinsPermanentSlot() (gas: 215470)
+[PASS] testChangedFeeInvalidatesSignature() (gas: 89982)
+[PASS] testChildCannotBeAcceptedByDelegate() (gas: 665131)
+[PASS] testChildFeeCap() (gas: 544003)
+[PASS] testChildrenTotalPolicyLowerThanHardCap() (gas: 613552)
+[PASS] testCloseWinsAcceptAndSplit() (gas: 280022)
+[PASS] testClosingBlocksChildReserveAndAccept() (gas: 788050)
+[PASS] testDoubleClaimDoubleWithdraw() (gas: 382502)
+[PASS] testExactDepositAndImmutableCaps() (gas: 59813)
+[PASS] testForcedSurplusSeparate() (gas: 94567)
+[PASS] testFullColdRecovery() (gas: 990270)
+[PASS] testFuzzFullRecovery(uint64,uint64) (runs: 256, μ: 971956, ~: 971955)
+[PASS] testKnownBadDoubleCreditDetector() (gas: 505397)
+[PASS] testMachineGuardActualStorageDoubleCredit() (gas: 522948)
+[PASS] testPolicyRejectsDelegateDifferentFromA() (gas: 31927)
+[PASS] testPolicyRejectsSharedOperator() (gas: 31981)
+[PASS] testQuoteExpiredReleaseAndRootExpiry() (gas: 299449)
+[PASS] testReentrantClaimBlocked() (gas: 849847)
+[PASS] testReentrantWithdrawBlocked() (gas: 849663)
+[PASS] testRejectOwnerRollsBack() (gas: 809155)
+[PASS] testRejectPayeeCannotBlockOwnerExit() (gas: 769653)
+[PASS] testRejectPayeeRollsBack() (gas: 716489)
+[PASS] testReserveBeyondPolicyExpiryRejected() (gas: 46801)
+[PASS] testRootFeeCap() (gas: 82726)
+[PASS] testRootIdentityAndContractDomain() (gas: 2302502)
+[PASS] testSignatureAndPayloadDomainReplay() (gas: 123241)
+[PASS] testWorkflowExpiredStopsChildAdmission() (gas: 763235)
+[PASS] testWrongDelegateOperatorPayeeAndPolicy() (gas: 291248)
+Suite result: ok. 33 passed; 0 failed; 0 skipped; finished in 99.36ms (175.27ms CPU time)
+
+Ran 1 test suite in 115.40ms (99.36ms CPU time): 33 tests passed, 0 failed, 0 skipped (33 total tests)
