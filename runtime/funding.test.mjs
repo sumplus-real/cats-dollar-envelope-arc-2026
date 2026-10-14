@@ -1,0 +1,5 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {fundingPlan,FUNDING} from './funding.mjs';
+const input=()=>({ownerBalance:500000000000000000n,balances:{A:0n,B:0n},estimates:{A:21000n,B:21000n},maxFeePerGas:24000000000n,externalFees:0n});
+test('Owner reserve does not enlarge fixed role or total budgets',()=>{const p=fundingPlan(input());assert.equal(p.ready,true);assert.deepEqual(p.transfers.map(t=>t.value),[FUNDING.A,FUNDING.B]);assert.equal(p.minimumOwnerBalance,251260000000000000n);assert.equal(p.unallocatedReserve,248740000000000000n);});
+test('Funding fees share original cap with external fees',()=>{assert.throws(()=>fundingPlan({...input(),externalFees:19000000000000000n}),/0.02/);assert.throws(()=>fundingPlan({...input(),maxFeePerGas:400000000000n}),/0.02/);});
+test('No double funding and insufficient funds cannot be ready',()=>{assert.throws(()=>fundingPlan({...input(),balances:{A:1n,B:0n}}),/already funded/);assert.equal(fundingPlan({...input(),ownerBalance:250000000000000000n}).ready,false);assert.throws(()=>fundingPlan({...input(),estimates:{A:0n,B:21000n}}),/Positive/);});
