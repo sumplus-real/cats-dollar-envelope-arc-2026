@@ -1,29 +1,34 @@
 {
-  "mode": "LOCAL_REHEARSAL_NOT_MAINNET",
+  "mode": "ARC_MAINNET_REAL_RECEIPTS",
   "durationSeconds": 90,
   "width": 1920,
   "height": 1080,
   "fps": 24,
   "codec": "H264",
   "hasAudio": false,
-  "hyperframesVersion": "0.8.154",
-  "previousScaffoldPin": "0.8.153",
+  "hyperframesVersion": "0.8.155",
+  "previousVariantVersion": "0.8.154",
+  "sourceCommit": "717f366e90e6441bda6a9a4dfc4614ba6721c6a4",
+  "recordingScope": "Rendered actual saved RPC evidence panels, not browser-wallet recording",
+  "coldRecoveryScope": "Fresh Node process loading frozen Recovery Kit; no installed wallet extension claim",
   "check": {
     "ok": true,
     "runtimeErrors": 0,
     "layoutErrors": 0,
-    "contrastPassed": 35,
-    "contrastChecked": 35
+    "layoutInfo": 0,
+    "contrastPassed": 90,
+    "contrastChecked": 90
   },
   "decodeErrors": 0,
+  "editableFileCount": 15,
   "files": {
-    "CATS_Dollar_Envelope_LOCAL_90s.mp4": {
-      "bytes": 3519447,
-      "sha256": "2305fd70996f5524ef239939afcfdbe8546630c91cda98870ba118ef8f9daffb"
+    "CATS_Dollar_Envelope_MAINNET_90s.mp4": {
+      "bytes": 1595129,
+      "sha256": "58dcec4a1cb35a8785cef240d858eabbe9ebed69df2805539254dbee948b734f"
     },
-    "CATS_Dollar_Envelope_LOCAL_editable.zip": {
-      "bytes": 2334753,
-      "sha256": "d4726d39d38c5b4734179f69f06015158472c0c8032a000ea3f066dafadd6e27"
+    "CATS_Dollar_Envelope_MAINNET_editable.zip": {
+      "bytes": 136598,
+      "sha256": "8459f37aac8507337812eb5eeba0852a9e4c6c6c146222591bbf9ba4ee526e79"
     }
   },
   "publicDestination": "https://sumplus-real.github.io/cats-dollar-envelope-arc-2026/"
